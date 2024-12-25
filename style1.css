@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    
+  
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+/*section1 css*/
+#section1 .conteiner{
+height: 300px;
+    width: 100%;
+background-color: aliceblue;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap: 1100px;
+    
+
+    
+}
+#section1 .box1 img{
+    height:60%;
+    width:800px;}
+    
+#section1 .box2 {
+font-size:80px;
+text-decoration: none;
+color: black;
+display: flex;
+margin-top: 20px;
+gap:100px;
+margin-right: 200px;
+
+    }
+#section1 .box2 a:hover{
+    color: rgb(82, 221, 231);
+
+}
+#section1 button{
+    background-color: #002322;
+    color: white;
+    padding:60px;
+    border-radius: 10px;
+    font-size: 50px;
+    transition:transform 1s
+
+
+}
+#section1 button:hover{
+    transform:scaleY    
+}
+/*section2 strat*/
+#section2 .box3{
+width: 100%;
+border:#002322 1px solid;
+display: flex;
+flex-direction: column;
+
+padding: 300px;
+}
+#section2 .box3 h1{
+font-size:150px;
+}
+#section2 .box3 p{
+    font-size:55px;
+    letter-spacing:normal;
+    color: #002322;
+}
+#section2 .box3 span{
+    margin-left: 600px;
+}
+#section2 .box4{
+  height: 80px;
+  width: 80px;
+  background-color: rgb(57, 230, 236);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#section2 .box4 i{
+    font-size: 60px;
+}
+#section2 .box4 span{
+    font-size: 45px;
+    margin-right: 90px;
+
+}
+
